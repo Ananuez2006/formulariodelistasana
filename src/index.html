@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario</legend>
+        <label for="td"></label>
+        <br />
+        <select id="td">
+          <option value="CC">Generación de productos</option>
+          <option value="TI">Añadir producto</option>
+          <option value="CE">Enumerar los productos</option>
+          <option value="PA">Eliminar los productos</option>
+        </select>
+        <br />
+        Nombre:<br />
+        <input type="text" id="txtNombre" /><br />
+        Apellido:<br />
+        <input type="text" id="txtApellido" />
+        <br />
+        <label for="rgenero">Genero:</label><br />
+        <input type="radio" name="genero" value="M" /> Masculino<br />
+        <input type="radio" name="genero" value="F" /> Femenino<br />
+        <br />
+        <label for="txtDescripcion">Descripción:</label>
+        <br />
+        <textarea id="txtDescripcion"></textarea>
+        <br />
+        <button type="button" onclick="Cargar();">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
